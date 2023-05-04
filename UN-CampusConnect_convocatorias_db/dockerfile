@@ -1,0 +1,14 @@
+# Seleccionamos la imagen base
+FROM neo4j:latest
+
+# Copiamos un archivo de configuración personalizado para Neo4j
+
+
+# Exponemos el puerto por defecto de Neo4j (7474)
+EXPOSE 7687
+
+# Definimos una variable de entorno para establecer la contraseña del usuario neo4j
+ENV NEO4J_AUTH=neo4j/campusconnect
+
+# Establecemos un comando de arranque por defecto para el contenedor
+CMD ["neo4j"]
