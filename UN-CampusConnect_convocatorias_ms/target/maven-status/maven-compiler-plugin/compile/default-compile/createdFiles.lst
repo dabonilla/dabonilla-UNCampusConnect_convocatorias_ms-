@@ -1,0 +1,5 @@
+com\Arquitectura\UNCampusConnect_convocatorias_ms\service\CallService.class
+com\Arquitectura\UNCampusConnect_convocatorias_ms\model\Call.class
+com\Arquitectura\UNCampusConnect_convocatorias_ms\UnCampusConnectConvocatoriasMsApplication.class
+com\Arquitectura\UNCampusConnect_convocatorias_ms\repository\CallRepository.class
+com\Arquitectura\UNCampusConnect_convocatorias_ms\Controllers\CallController.class
