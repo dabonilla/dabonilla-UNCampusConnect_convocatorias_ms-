@@ -1,16 +1,16 @@
 # dabonilla-UNCampusConnect_convocatorias_ms
 
-## Opción 1 con docker compose
+## Opción 1: con docker compose
 
 Entrar en la carpeta UN-CampusConnect_convocatorias_ms y ejecutar el siguiente comando: ```docker-compose up -d```
 Es necesario tener instalado docker compose.
 
-## Opción 2 
+## Opción 2: 
 
-Es necesario crear una red ```docker network create miRed ```
+Es necesario crear una red:  ```docker network create miRed ```
 ### Contenedor ms
 
-Entrar en la carpeta UB-CampusConnect_convocatorias_ms y ejecutar el siguiente comando oara crear la imagen:
+Entrar en la carpeta UB-CampusConnect_convocatorias_ms y ejecutar el siguiente comando para crear la imagen:
 ```docker build -t convocatorias_ms . ```
 
 El siguiente comando es para crear el contenedor y ejecutarlo:
@@ -18,7 +18,7 @@ El siguiente comando es para crear el contenedor y ejecutarlo:
 
 ### Contenedor db
 
-Entrar en la carpeta UB-CampusConnect_convocatorias_db y ejecutar el siguiente comando oara crear la imagen:
+Entrar en la carpeta UB-CampusConnect_convocatorias_db y ejecutar el siguiente comando para crear la imagen:
 docker build -t mi-imagen-neo4j .
 
 El siguiente comando es para crear el contenedor y ejecutarlo:
