@@ -3,14 +3,5 @@ version: "2.15"
 services:
   convocatorias_ms:
     image: dabonilla/convocatorias_ms:latest
-    depends_on:
-      - UNCampusConnectConvocatoriasDB
     ports:
       - 8080:8080
-  UNCampusConnectConvocatoriasDB:
-    image: neo4j:latest
-    environment: 
-      - NEO4J_AUTH=neo4j/campusconnect
-    ports:
-      - "7687:7687"
-      - "7474:7474"
